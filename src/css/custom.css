@@ -1,0 +1,185 @@
+/* --------------------------------------------------
+   Global Custom Styles for Docusaurus
+   -------------------------------------------------- */
+
+/* Root Theme Variables */
+:root {
+  /* Primary Colors (Purple Theme) */
+  --ifm-color-primary: #6A0DAD;
+  --ifm-color-primary-dark: #5B0C92;
+  --ifm-color-primary-darker: #530B85;
+  --ifm-color-primary-darkest: #46096E;
+  --ifm-color-primary-light: #802BD0;
+  --ifm-color-primary-lighter: #8C3CEF;
+  --ifm-color-primary-lightest: #9B50FF;
+
+  /* Secondary Colors (Coral Theme) */
+  --ifm-color-secondary: #FF6B6B;
+  --ifm-color-secondary-dark: #FF5A5A;
+  --ifm-color-secondary-darker: #FF4D4D;
+  --ifm-color-secondary-darkest: #F53C3C;
+  --ifm-color-secondary-light: #FF8F8F;
+  --ifm-color-secondary-lighter: #FF9B9B;
+  --ifm-color-secondary-lightest: #FFADAD;
+
+  /* Utility Colors */
+  --ifm-color-info: #3E8EFF;
+  --ifm-color-success: #28a745;
+  --ifm-color-warning: #FFC107;
+  --ifm-color-danger: #DC3545;
+
+  /* Fonts */
+  --ifm-font-family-base: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI',
+    Roboto, Helvetica, Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol';
+
+  /* Base Colors */
+  --ifm-text-color: #2C3E50;
+  --ifm-background-color: #F8F9FA;
+
+  /* Links */
+  --ifm-link-color: var(--ifm-color-primary);
+  --ifm-link-hover-color: var(--ifm-color-primary-dark);
+  --ifm-link-decoration: none;
+  --ifm-link-hover-decoration: underline;
+
+  --ifm-code-font-size: 95%;
+  --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.1);
+
+  /* Header Styling */
+  h1, h2, h3, h4, h5, h6 {
+    color: var(--ifm-color-primary);
+    font-weight: 700;
+  }
+}
+
+/* --------------------------------------------------
+   Light Mode
+   -------------------------------------------------- */
+[data-theme='light'] {
+  --ifm-background-color: #F8F9FA;
+  --ifm-text-color: #2C3E50;
+  --ifm-breadcrumb-color-active: var(--ifm-color-secondary);
+}
+
+/* --------------------------------------------------
+   Dark Mode
+   -------------------------------------------------- */
+[data-theme='dark'] {
+  --ifm-background-color: #1A1A2E;
+  --ifm-text-color: #E0E0E0;
+
+  --ifm-navbar-background-color: #16213E;
+  --ifm-footer-background-color: #16213E;
+  --ifm-code-background: #252A46;
+
+  /* Purple Theme Adjusted for Dark Mode */
+  --ifm-color-primary: #BB86FC;
+  --ifm-color-primary-dark: #A671F2;
+  --ifm-color-primary-darker: #9E64E8;
+  --ifm-color-primary-darkest: #8C53DC;
+  --ifm-color-primary-light: #D29FFF;
+  --ifm-color-primary-lighter: #DBACFF;
+  --ifm-color-primary-lightest: #E8C1FF;
+
+  /* Teal Accent for Dark Mode */
+  --ifm-color-secondary: #03DAC6;
+  --ifm-color-secondary-dark: #02C8B5;
+  --ifm-color-secondary-darker: #02BEAF;
+  --ifm-color-secondary-darkest: #01A394;
+  --ifm-color-secondary-light: #16E6D3;
+  --ifm-color-secondary-lighter: #26ECE6;
+  --ifm-color-secondary-lightest: #3BF9F9;
+}
+
+/* --------------------------------------------------
+   Buttons
+   -------------------------------------------------- */
+.button--primary {
+  background-color: var(--ifm-color-primary);
+  color: white;
+  border-radius: var(--ifm-button-border-radius);
+  font-weight: bold;
+}
+
+.button--secondary {
+  background-color: var(--ifm-color-secondary);
+  color: white;
+  border-radius: var(--ifm-button-border-radius);
+  font-weight: bold;
+}
+
+/* --------------------------------------------------
+   Code Blocks
+   -------------------------------------------------- */
+pre {
+  border-left: 4px solid var(--ifm-color-primary);
+  background-color: var(--ifm-code-background);
+  padding: 1rem;
+  border-radius: 0 5px 5px 0;
+}
+
+/* --------------------------------------------------
+   Links
+   -------------------------------------------------- */
+a {
+  color: var(--ifm-link-color);
+}
+
+a:hover {
+  color: var(--ifm-link-hover-color);
+  text-decoration: var(--ifm-link-hover-decoration);
+}
+
+/* --------------------------------------------------
+   Images
+   -------------------------------------------------- */
+
+
+/* --------------------------------------------------
+   Code Line Highlighting
+   -------------------------------------------------- */
+.docusaurus-highlighted-code-line {
+  background-color: var(--docusaurus-highlighted-code-line-bg);
+}
+
+/* --------------------------------------------------
+   Forms (Remove Red Focus)
+   -------------------------------------------------- */
+input:focus,
+textarea:focus,
+[contenteditable]:focus {
+  box-shadow: none !important;
+  border-color: var(--ifm-color-secondary) !important;
+  outline: none !important;
+}
+
+/* --------------------------------------------------
+   Breadcrumbs
+   -------------------------------------------------- */
+.navbar__link.navbar__link--active.breadcrumb__link {
+  color: var(--ifm-color-secondary) !important;
+}
+
+/* --------------------------------------------------
+   Dark Mode Adjustments
+   -------------------------------------------------- */
+[data-theme='dark'] .docusaurus-mt-md {
+  color: var(--ifm-text-color);
+}
+
+[data-theme='dark'] .tabs__item--active,
+[data-theme='dark'] .menu__link--active,
+[data-theme='dark'] .theme-doc-sidebar-item-link-active {
+  color: var(--ifm-color-primary);
+}
+
+/* --------------------------------------------------
+   Hero Section
+   -------------------------------------------------- */
+.hero__title {
+  color: var(--ifm-color-primary);
+}
+
+.hero__subtitle {
+  color: var(--ifm-text-color);
+}
