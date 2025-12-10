@@ -7,7 +7,7 @@ tags: [robotics, programming, beginner, journey]
 
 # 🤖 Physical AI aur Coding Ka Safar
 
-**Assalam u Alaikum! My Name is Iqra Mushtaq.**
+**Assalam u Alaikum! My Name is Anusha Akhter.**
 
 🤖 My Journey into Physical AI and Coding
 
