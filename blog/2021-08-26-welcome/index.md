@@ -1,13 +1,13 @@
 ---
 slug: welcome-anusha
 title: Welcome to My AI & Robotics Journey
-authors: [anusha_akhter]
+authors: [iqra_mushtaq]
 tags: [robotics, programming, beginner, journey]
 ---
 
 # 🤖 Physical AI aur Coding Ka Safar
 
-**Assalam u Alaikum! Mera Naam Anusha Akhter Hai.**
+**Assalam u Alaikum! My Name is Iqra Mushtaq.**
 
 🤖 My Journey into Physical AI and Coding
 
@@ -41,7 +41,7 @@ Writing the book “Physical AI & Humanoid Robotics” was an exciting experienc
 
 ### **Connect With Me:**
 
-* **LinkedIn:** [Anusha Akhter's Profile](https://www.linkedin.com/in/anusha-akhter-9a568a2ba/)
-* **GitHub:** [My Projects](https://github.com/anushadeveloper30)
+* **LinkedIn:** [IfraAkhter's Profile](https://www.linkedin.com/in/ifra-akhter-2622292ba/)
+* **GitHub:** [My Projects](https://github.com/IfraCreativeCoder)
 
 Thank you for visiting!

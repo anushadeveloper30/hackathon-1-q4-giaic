@@ -1,7 +1,7 @@
 ---
 slug: first-blog-post
 title: First Blog Post
-authors: [anusha_akhter]
+authors: [iqra_mushtaq]
 tags: [hola, docusaurus]
 ---
 
@@ -40,8 +40,3 @@ Starting something new is always a mix of excitement and fear. But I believe eve
 If you're reading this, thank you for being a part of the very beginning of my journey. I hope my posts inspire you to explore your own path in technology.
 
 The best is yet to come. 🌸✨
-
-If you want, I can also:
-✔ format this into Markdown for Docusaurus
-✔ add images or emojis
-✔ write a second blog post
