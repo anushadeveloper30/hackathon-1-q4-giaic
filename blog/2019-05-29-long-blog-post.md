@@ -1,7 +1,7 @@
 ---
 slug: long-blog-post
 title: Long Blog Post
-authors: [iqra_mushtaq]
+authors: [anusha-akhter]
 tags: [hello, docusaurus]
 ---
 

@@ -1,7 +1,7 @@
 ---
 slug: first-blog-post
 title: First Blog Post
-authors: [iqra_mushtaq]
+authors: [anusha-akhter]
 tags: [hola, docusaurus]
 ---
 
