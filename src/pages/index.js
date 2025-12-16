@@ -3,6 +3,7 @@ import Link from '@docusaurus/Link';
 import useDocusaurusContext from '@docusaurus/useDocusaurusContext';
 import Layout from '@theme/Layout';
 import HomepageFeatures from '@site/src/components/HomepageFeatures';
+import ChatAgent from '@site/src/components/ChatAgent'; // Import the new ChatAgent component
 
 import Heading from '@theme/Heading';
 import styles from './index.module.css';
@@ -38,6 +39,7 @@ export default function Home() {
       <main>
         <HomepageFeatures />
       </main>
+      <ChatAgent /> {/* Render the new ChatAgent component here */}
     </Layout>
   );
 }

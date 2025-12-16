@@ -1,0 +1,136 @@
+.aiAgentContainer {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    z-index: 1000;
+}
+
+.floatingButton {
+    background-color: #e91e63; /* Pink */
+    color: white;
+    border: none;
+    border-radius: 50%;
+    width: 60px;
+    height: 60px;
+    font-size: 24px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    transition: background-color 0.3s ease;
+}
+
+.floatingButton:hover {
+    background-color: #ad1457; /* Darker Pink */
+}
+
+.chatWindow {
+    position: absolute;
+    bottom: 80px; /* Above the floating button */
+    right: 0;
+    width: 350px;
+    height: 450px;
+    background-color: #fff;
+    border-radius: 15px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    animation: fadeIn 0.3s ease-out;
+}
+
+@keyframes fadeIn {
+    from { opacity: 0; transform: translateY(20px); }
+    to { opacity: 1; transform: translateY(0); }
+}
+
+.chatHeader {
+    background-color: #9c27b0; /* Purple */
+    color: white;
+    padding: 15px;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    text-align: center;
+    font-size: 1.1em;
+    font-weight: bold;
+}
+
+.messagesContainer {
+    flex-grow: 1;
+    padding: 15px;
+    overflow-y: auto;
+    background-color: #fce4ec; /* Light Pink */
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.welcomeMessage {
+    background-color: #f8bbd0; /* Even Lighter Pink */
+    padding: 10px;
+    border-radius: 8px;
+    text-align: center;
+    color: #4a148c; /* Dark Purple */
+    font-style: italic;
+}
+
+.userMessage {
+    align-self: flex-end;
+    background-color: #8e24aa; /* Medium Purple */
+    color: white;
+    padding: 10px 15px;
+    border-radius: 15px 15px 0 15px;
+    max-width: 80%;
+    word-wrap: break-word;
+}
+
+.aiMessage {
+    align-self: flex-start;
+    background-color: #ff5252; /* Red */
+    color: white;
+    padding: 10px 15px;
+    border-radius: 15px 15px 15px 0;
+    max-width: 80%;
+    word-wrap: break-word;
+}
+
+.inputContainer {
+    display: flex;
+    padding: 10px;
+    border-top: 1px solid #f0f0f0;
+    background-color: #fff;
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+}
+
+.inputContainer input {
+    flex-grow: 1;
+    border: 1px solid #e0e0e0;
+    border-radius: 20px;
+    padding: 10px 15px;
+    margin-right: 10px;
+    font-size: 1em;
+    outline: none;
+}
+
+.inputContainer button {
+    background-color: #e91e63; /* Pink */
+    color: white;
+    border: none;
+    border-radius: 20px;
+    padding: 10px 20px;
+    cursor: pointer;
+    font-size: 1em;
+    transition: background-color 0.3s ease;
+}
+
+.inputContainer button:hover:not(:disabled) {
+    background-color: #ad1457; /* Darker Pink */
+}
+
+.inputContainer button:disabled {
+    background-color: #f8bbd0; /* Light Pink */
+    cursor: not-allowed;
+}
