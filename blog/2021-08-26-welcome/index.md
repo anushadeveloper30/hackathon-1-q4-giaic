@@ -1,7 +1,11 @@
 ---
 slug: welcome-anusha
 title: Welcome to My AI & Robotics Journey
+<<<<<<< HEAD
 authors: [anusha_akhter]
+=======
+authors: [anusha-akhter]
+>>>>>>> 1938d0bed4d73cbe7c9a907740912109234576df
 tags: [robotics, programming, beginner, journey]
 ---
 
@@ -41,7 +45,12 @@ Writing the book “Physical AI & Humanoid Robotics” was an exciting experienc
 
 ### **Connect With Me:**
 
+<<<<<<< HEAD
 * **LinkedIn:** [Anusha_Akher's Profile](https://www.linkedin.com/in/saima-majid-990b48349)
 * **GitHub:** [My Projects](https://github.com/saimamajid123)
+=======
+* **LinkedIn:** [Anusha Akhter's Profile](https://www.linkedin.com/in/anusha-akhter-9a568a2ba/)
+* **GitHub:** [My Projects](https://github.com/anushadeveloper30)
+>>>>>>> 1938d0bed4d73cbe7c9a907740912109234576df
 
 Thank you for visiting!

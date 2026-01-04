@@ -1,7 +1,11 @@
 ---
 slug: long-blog-post
 title: Long Blog Post
+<<<<<<< HEAD
 authors: [saima_majid]
+=======
+authors: [anusha-akhter]
+>>>>>>> 1938d0bed4d73cbe7c9a907740912109234576df
 tags: [hello, docusaurus]
 ---
 
